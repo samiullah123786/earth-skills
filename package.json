@@ -1,0 +1,39 @@
+{
+  "name": "earth-skills",
+  "version": "0.1.0",
+  "description": "The curated Earth Market skill map: use agent skills from any machine without reinstalling them.",
+  "type": "module",
+  "bin": {
+    "earth-skills": "bin/earth-skills.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "upstream": "node scripts/upstream-sync.mjs",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "yaml": "^2.6.1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samiullah123786/earth-skills.git"
+  },
+  "keywords": [
+    "mcp",
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "cursor",
+    "agentsearth"
+  ]
+}

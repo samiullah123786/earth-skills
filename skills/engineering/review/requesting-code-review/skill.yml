@@ -1,0 +1,14 @@
+name: requesting-code-review
+title: Requesting Code Review
+summary: Send a reviewer subagent a precise diff and brief so issues are caught before work is merged.
+family: engineering
+area: review
+tags: [code-review, subagents, quality]
+author: Jesse Vincent
+license: MIT
+requires: []
+pairs_with: [receiving-code-review, subagent-driven-development, finishing-a-development-branch]
+source:
+  repo: obra/superpowers
+  path: skills/requesting-code-review
+  ref: bb92a77741419a4ab5f06e711a283343f1ada0c3

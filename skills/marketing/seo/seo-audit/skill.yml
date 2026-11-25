@@ -1,0 +1,14 @@
+name: seo-audit
+title: SEO Audit
+summary: Diagnose why a site or page is not ranking, from crawling, indexing and canonicals to on-page issues and Core Web Vitals.
+family: marketing
+area: seo
+tags: [seo, audit, technical-seo]
+author: Corey Haines
+license: MIT
+requires: []
+pairs_with: []
+source:
+  repo: coreyhaines31/marketingskills
+  path: skills/seo-audit
+  ref: fe0678517ee73d4a4876ddbe57e43b252e87a384

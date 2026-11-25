@@ -1,0 +1,14 @@
+name: subagent-driven-development
+title: Subagent-Driven Development
+summary: Execute a written plan with a fresh subagent per task and a spec and quality review after each one.
+family: engineering
+area: agents
+tags: [subagents, orchestration, execution]
+author: Jesse Vincent
+license: MIT
+requires: [writing-plans]
+pairs_with: [using-git-worktrees, requesting-code-review, test-driven-development, finishing-a-development-branch, dispatching-parallel-agents]
+source:
+  repo: obra/superpowers
+  path: skills/subagent-driven-development
+  ref: 22f0b463e7a5e579904dd6211a520321035526f7

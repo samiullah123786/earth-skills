@@ -1,0 +1,14 @@
+name: copywriting
+title: Copywriting
+summary: Write or rewrite homepage, landing, pricing and feature page copy whose claims the product can back up.
+family: marketing
+area: copy
+tags: [copywriting, landing-pages, messaging]
+author: Corey Haines
+license: MIT
+requires: []
+pairs_with: [copy-editing]
+source:
+  repo: coreyhaines31/marketingskills
+  path: skills/copywriting
+  ref: 7944be5ee2fa008f17c0aa9e7ee948491238f206

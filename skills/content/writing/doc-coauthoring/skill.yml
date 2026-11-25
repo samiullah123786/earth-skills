@@ -1,0 +1,14 @@
+name: doc-coauthoring
+title: Doc Co-Authoring
+summary: Co-write a spec, proposal or decision doc by gathering context, refining its structure, then testing it on a fresh reader.
+family: content
+area: writing
+tags: [writing, documentation, specs]
+author: Anthropic
+license: link-only
+requires: []
+pairs_with: [docx]
+source:
+  repo: anthropics/skills
+  path: skills/doc-coauthoring
+  ref: 00756142ab04c82a447693cf373c4e0c554d1005

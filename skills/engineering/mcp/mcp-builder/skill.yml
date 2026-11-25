@@ -1,0 +1,14 @@
+name: mcp-builder
+title: MCP Builder
+summary: Build a Model Context Protocol server in TypeScript or Python with well-designed tools, then write evaluations to test it.
+family: engineering
+area: mcp
+tags: [mcp, integrations, typescript, python]
+author: Anthropic
+license: Apache-2.0
+requires: []
+pairs_with: []
+source:
+  repo: anthropics/skills
+  path: skills/mcp-builder
+  ref: ca45fc496a3436251f191354091d557da31c15b5

@@ -1,0 +1,14 @@
+name: pdf
+title: PDF Toolkit
+summary: Extract text and tables from PDFs, merge and split them, fill forms and create new PDFs.
+family: content
+area: documents
+tags: [pdf, documents, forms]
+author: Anthropic
+license: Apache-2.0
+requires: []
+pairs_with: [docx, xlsx]
+source:
+  repo: anthropics/skills
+  path: skills/pdf
+  ref: 1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064

@@ -1,0 +1,14 @@
+name: webapp-testing
+title: Web App Testing
+summary: Drive a local web app with Playwright to check behaviour, read browser logs and capture screenshots.
+family: engineering
+area: frontend
+tags: [playwright, browser, testing, frontend]
+author: Anthropic
+license: Apache-2.0
+requires: []
+pairs_with: [frontend-design, verification-before-completion]
+source:
+  repo: anthropics/skills
+  path: skills/webapp-testing
+  ref: b9e19e6f44773509fbdd7001d77ff41a49a486c1

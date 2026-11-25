@@ -1,0 +1,242 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-25T06:00:00.000Z",
+  "commit": "fixture0000000000000000000000000000000000",
+  "base": "https://example.invalid/earth-skills/",
+  "scanner": "earth-safety-2",
+  "counts": {
+    "families": 2,
+    "areas": 4,
+    "skills": 5,
+    "edges": 2
+  },
+  "families": [
+    {
+      "id": "engineering",
+      "title": "Engineering",
+      "color": "#3B82F6",
+      "areas": [
+        {
+          "id": "planning",
+          "title": "Planning & specs",
+          "summary": "Turn an idea into a plan an agent can execute.",
+          "skills": [
+            "writing-plans",
+            "executing-plans"
+          ]
+        },
+        {
+          "id": "testing",
+          "title": "Testing & TDD",
+          "summary": "Write the failing test first and prove the fix.",
+          "skills": [
+            "test-driven-development"
+          ]
+        },
+        {
+          "id": "debugging",
+          "title": "Debugging",
+          "summary": "Find the root cause before changing code.",
+          "skills": [
+            "systematic-debugging"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marketing",
+      "title": "Marketing",
+      "color": "#F97316",
+      "areas": [
+        {
+          "id": "seo",
+          "title": "Search & SEO",
+          "summary": "Be found by people and by AI answer engines.",
+          "skills": [
+            "seo-audit"
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "systematic-debugging",
+      "title": "Systematic Debugging",
+      "summary": "Find the root cause with evidence before writing any fix.",
+      "family": "engineering",
+      "area": "debugging",
+      "tags": [
+        "debugging",
+        "root-cause"
+      ],
+      "author": "Jesse Vincent",
+      "license": "MIT",
+      "kind": "linked",
+      "ref": "0123456789abcdef0123456789abcdef01234567",
+      "sourceUrl": "https://github.com/obra/superpowers/tree/0123456789abcdef0123456789abcdef01234567/skills/systematic-debugging",
+      "requires": [],
+      "pairsWith": [
+        "test-driven-development"
+      ],
+      "safety": {
+        "verdict": "inert_safe",
+        "flags": []
+      },
+      "served": true,
+      "digest": "sha256:9d8ddf1a0fd139b3431b0a78cae45d9603ac480a084d2948c83f86dc080ffe1d",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "size": 315
+        },
+        {
+          "path": "notes/root-cause.md",
+          "size": 75
+        }
+      ],
+      "entry": "SKILL.md"
+    },
+    {
+      "id": "test-driven-development",
+      "title": "Test-Driven Development",
+      "summary": "Write the failing test first, then the smallest code that passes it.",
+      "family": "engineering",
+      "area": "testing",
+      "tags": [
+        "testing",
+        "tdd"
+      ],
+      "author": "Jesse Vincent",
+      "license": "MIT",
+      "kind": "hosted",
+      "ref": null,
+      "sourceUrl": "https://github.com/samiullah123786/earth-skills/tree/main/skills/engineering/testing/test-driven-development",
+      "requires": [],
+      "pairsWith": [
+        "systematic-debugging"
+      ],
+      "safety": {
+        "verdict": "inert_safe",
+        "flags": []
+      },
+      "served": true,
+      "digest": "sha256:3116f67094458c04e932be2046b551a0a90c18628350e68282c5ccadf4b1e3d0",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "size": 186
+        }
+      ],
+      "entry": "SKILL.md"
+    },
+    {
+      "id": "writing-plans",
+      "title": "Writing Plans",
+      "summary": "Turn a spec into a step-by-step plan another agent can follow.",
+      "family": "engineering",
+      "area": "planning",
+      "tags": [
+        "planning",
+        "spec"
+      ],
+      "author": "Jesse Vincent",
+      "license": "MIT",
+      "kind": "hosted",
+      "ref": null,
+      "sourceUrl": "https://github.com/samiullah123786/earth-skills/tree/main/skills/engineering/planning/writing-plans",
+      "requires": [],
+      "pairsWith": [],
+      "safety": {
+        "verdict": "inert_safe",
+        "flags": []
+      },
+      "served": true,
+      "digest": "sha256:21ebbcccb9281ad83fec4311f8cf7b1c26bec0b0737dac82ad8a16fa19fa1e57",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "size": 183
+        }
+      ],
+      "entry": "SKILL.md"
+    },
+    {
+      "id": "executing-plans",
+      "title": "Executing Plans",
+      "summary": "Work through a written plan in small checked batches.",
+      "family": "engineering",
+      "area": "planning",
+      "tags": [
+        "planning"
+      ],
+      "author": "Jesse Vincent",
+      "license": "MIT",
+      "kind": "hosted",
+      "ref": null,
+      "sourceUrl": "https://github.com/samiullah123786/earth-skills/tree/main/skills/engineering/planning/executing-plans",
+      "requires": [
+        "writing-plans"
+      ],
+      "pairsWith": [],
+      "safety": {
+        "verdict": "needs_review",
+        "flags": [
+          "shell-command"
+        ]
+      },
+      "served": true,
+      "digest": "sha256:31856208e8ab3d2ee8494e8b213e04d9120ebf8824fc1a2579d74853c6edf83a",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "size": 178
+        }
+      ],
+      "entry": "SKILL.md"
+    },
+    {
+      "id": "seo-audit",
+      "title": "SEO Audit",
+      "summary": "Audit a site for search and AI answer-engine visibility.",
+      "family": "marketing",
+      "area": "seo",
+      "tags": [
+        "seo",
+        "audit"
+      ],
+      "author": "Example Org",
+      "license": "link-only",
+      "kind": "linked",
+      "ref": "fedcba9876543210fedcba9876543210fedcba98",
+      "sourceUrl": "https://github.com/example/seo-skills/tree/fedcba9876543210fedcba9876543210fedcba98/seo-audit",
+      "requires": [],
+      "pairsWith": [],
+      "safety": {
+        "verdict": "inert_safe",
+        "flags": []
+      },
+      "served": false,
+      "digest": null,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "size": 4000
+        }
+      ],
+      "entry": "SKILL.md"
+    }
+  ],
+  "edges": [
+    {
+      "from": "executing-plans",
+      "to": "writing-plans",
+      "kind": "requires"
+    },
+    {
+      "from": "systematic-debugging",
+      "to": "test-driven-development",
+      "kind": "pairs"
+    }
+  ]
+}

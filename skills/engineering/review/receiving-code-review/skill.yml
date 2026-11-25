@@ -1,0 +1,14 @@
+name: receiving-code-review
+title: Receiving Code Review
+summary: Check each review comment against the code before acting, and push back with reasons when a suggestion is wrong.
+family: engineering
+area: review
+tags: [code-review, feedback]
+author: Jesse Vincent
+license: MIT
+requires: []
+pairs_with: [requesting-code-review, verification-before-completion]
+source:
+  repo: obra/superpowers
+  path: skills/receiving-code-review
+  ref: 3fb75974186ea7fada621d8ab77b3b02169baf57

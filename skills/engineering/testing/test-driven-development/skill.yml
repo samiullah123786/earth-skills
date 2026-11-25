@@ -1,0 +1,14 @@
+name: test-driven-development
+title: Test-Driven Development
+summary: Write a failing test, watch it fail, then write the least code that makes it pass, for every feature and bug fix.
+family: engineering
+area: testing
+tags: [testing, tdd, red-green-refactor]
+author: Jesse Vincent
+license: MIT
+requires: []
+pairs_with: [systematic-debugging, verification-before-completion]
+source:
+  repo: obra/superpowers
+  path: skills/test-driven-development
+  ref: 5bf4e78011075bcfc0dc295f0724994cd123ee71

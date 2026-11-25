@@ -1,0 +1,14 @@
+name: copy-editing
+title: Copy Editing
+summary: Tighten and proofread existing marketing copy line by line and strip the phrases that make it read as AI-written.
+family: marketing
+area: copy
+tags: [editing, proofreading, copy]
+author: Corey Haines
+license: MIT
+requires: []
+pairs_with: [copywriting]
+source:
+  repo: coreyhaines31/marketingskills
+  path: skills/copy-editing
+  ref: 6d123b4fae5f9160005f75a8870349e4df5a31aa

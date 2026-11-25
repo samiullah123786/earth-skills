@@ -1,0 +1,14 @@
+name: skill-creator
+title: Skill Creator
+summary: Draft a skill, run evals against it, compare results with and without it, and tune its description so it triggers.
+family: ops
+area: skills
+tags: [skills, evals, authoring]
+author: Anthropic
+license: Apache-2.0
+requires: []
+pairs_with: [writing-skills]
+source:
+  repo: anthropics/skills
+  path: skills/skill-creator
+  ref: b9e19e6f44773509fbdd7001d77ff41a49a486c1

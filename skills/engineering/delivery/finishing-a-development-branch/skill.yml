@@ -1,0 +1,14 @@
+name: finishing-a-development-branch
+title: Finishing a Development Branch
+summary: Confirm tests pass, then merge, open a pull request, keep or discard the branch, and clean up its worktree.
+family: engineering
+area: delivery
+tags: [git, merge, pull-request]
+author: Jesse Vincent
+license: MIT
+requires: []
+pairs_with: [using-git-worktrees, verification-before-completion, requesting-code-review]
+source:
+  repo: obra/superpowers
+  path: skills/finishing-a-development-branch
+  ref: b36e0829c6d0140e93cfef2ca599b1b07d4a7797

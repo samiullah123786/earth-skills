@@ -1,0 +1,14 @@
+name: algorithmic-art
+title: Algorithmic Art
+summary: Make original generative art in p5.js with seeded randomness and sliders for exploring its parameters.
+family: media
+area: art
+tags: [generative-art, p5js, creative-coding]
+author: Anthropic
+license: Apache-2.0
+requires: []
+pairs_with: []
+source:
+  repo: anthropics/skills
+  path: skills/algorithmic-art
+  ref: b9e19e6f44773509fbdd7001d77ff41a49a486c1

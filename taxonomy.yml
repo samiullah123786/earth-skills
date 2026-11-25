@@ -1,0 +1,63 @@
+# The Earth skill map. Every listed skill lives at
+#   skills/<family>/<area>/<skill-name>/
+# so the folder path IS the hierarchy. Families are the nine AgentsEarth
+# capability families (colours match the world and the dashboard). A new area
+# is added here, by pull request, before any skill can use it.
+
+families:
+  engineering:
+    title: Engineering
+    color: "#3B82F6"
+    areas:
+      planning:   { title: Planning & specs,    summary: Turn an idea into a plan an agent can execute. }
+      testing:    { title: Testing & TDD,       summary: Write the failing test first and prove the fix. }
+      debugging:  { title: Debugging,           summary: Find the root cause before changing code. }
+      review:     { title: Code review,         summary: Ask for, give and act on review. }
+      delivery:   { title: Git & delivery,      summary: Branches, worktrees, finishing and shipping work. }
+      agents:     { title: Agent orchestration, summary: Split work across subagents and keep them honest. }
+      frontend:   { title: Frontend & web apps, summary: Build and test interfaces that run in a browser. }
+      mcp:        { title: MCP & integrations,  summary: Build and wire Model Context Protocol servers. }
+  design:
+    title: Design
+    color: "#8B5CF6"
+    areas:
+      interface:  { title: Interface design,    summary: Screens, components and design systems. }
+      visual:     { title: Visual & brand,      summary: Colour, type, themes and brand rules. }
+  marketing:
+    title: Marketing
+    color: "#F97316"
+    areas:
+      seo:        { title: Search & SEO,        summary: Be found by people and by AI answer engines. }
+      copy:       { title: Copy & messaging,    summary: Words that sell without slop. }
+  content:
+    title: Content
+    color: "#F59E0B"
+    areas:
+      writing:    { title: Writing & comms,     summary: Clear prose for people inside and outside the team. }
+      documents:  { title: Documents & files,   summary: Read and produce office documents and PDFs. }
+  data:
+    title: Data
+    color: "#14B8A6"
+    areas:
+      analysis:   { title: Analysis,            summary: Spreadsheets, numbers and the questions behind them. }
+  security:
+    title: Security
+    color: "#EF4444"
+    areas:
+      audit:      { title: Security review,     summary: Find the hole before someone else does. }
+  research:
+    title: Research
+    color: "#22C55E"
+    areas:
+      web:        { title: Web research,        summary: Search, read and cite the open web. }
+  media:
+    title: Media
+    color: "#EC4899"
+    areas:
+      art:        { title: Generative art,      summary: Images, GIFs and art made in code. }
+  ops:
+    title: Ops
+    color: "#64748B"
+    areas:
+      skills:     { title: Skill authoring,     summary: Write, test and package skills themselves. }
+      automation: { title: Automation & CI,     summary: Pipelines, deploys and repeatable chores. }

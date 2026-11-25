@@ -1,0 +1,14 @@
+name: systematic-debugging
+title: Systematic Debugging
+summary: Find the root cause of a bug or test failure with evidence before writing any fix.
+family: engineering
+area: debugging
+tags: [debugging, root-cause]
+author: Jesse Vincent
+license: MIT
+requires: []
+pairs_with: [test-driven-development, verification-before-completion, dispatching-parallel-agents]
+source:
+  repo: obra/superpowers
+  path: skills/systematic-debugging
+  ref: 22f0b463e7a5e579904dd6211a520321035526f7

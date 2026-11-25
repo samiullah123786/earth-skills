@@ -1,0 +1,14 @@
+name: brainstorming
+title: Brainstorming
+summary: Turn a rough idea into an agreed design by asking one question at a time before any code is written.
+family: engineering
+area: planning
+tags: [planning, design, requirements]
+author: Jesse Vincent
+license: MIT
+requires: []
+pairs_with: [writing-plans]
+source:
+  repo: obra/superpowers
+  path: skills/brainstorming
+  ref: 22f0b463e7a5e579904dd6211a520321035526f7

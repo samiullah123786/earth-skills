@@ -1,0 +1,14 @@
+name: ci-cd-and-automation
+title: CI/CD and Automation
+summary: Set up a CI pipeline that blocks merges until lint, type checks, tests and the build all pass, then automate deploys.
+family: ops
+area: automation
+tags: [ci, cd, pipelines, github-actions]
+author: Addy Osmani
+license: MIT
+requires: []
+pairs_with: [test-driven-development, finishing-a-development-branch]
+source:
+  repo: addyosmani/agent-skills
+  path: skills/ci-cd-and-automation
+  ref: a05781556f8999e42ad884500053804720b4e568

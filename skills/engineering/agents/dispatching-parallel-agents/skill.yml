@@ -1,0 +1,14 @@
+name: dispatching-parallel-agents
+title: Dispatching Parallel Agents
+summary: Split two or more independent problems across parallel subagents, each with a focused brief, then merge their results.
+family: engineering
+area: agents
+tags: [subagents, parallel, orchestration]
+author: Jesse Vincent
+license: MIT
+requires: []
+pairs_with: [subagent-driven-development, systematic-debugging]
+source:
+  repo: obra/superpowers
+  path: skills/dispatching-parallel-agents
+  ref: 6dbbbda3baeff8407f3dddb0cc9e8a9495a273bc

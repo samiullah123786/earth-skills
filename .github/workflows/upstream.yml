@@ -1,0 +1,38 @@
+# Weekly: if a linked skill's upstream moved, open ONE pull request bumping its
+# pinned commit. CI re-scans the new bytes; the owner decides.
+name: upstream
+
+on:
+  schedule:
+    - cron: '17 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - id: sync
+        run: npm run upstream
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - if: steps.sync.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: upstream-sync
+          title: Move linked skills to their latest upstream commits
+          commit-message: Move linked skills to their latest upstream commits
+          body: |
+            These linked skills changed upstream. CI has re-scanned the new bytes; read the diffs before merging.
+
+            ${{ steps.sync.outputs.body }}
+          delete-branch: true

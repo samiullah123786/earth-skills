@@ -1,0 +1,14 @@
+name: security-review
+title: Security Review
+summary: Review code for exploitable vulnerabilities by tracing attacker-controlled input, and report only high-confidence findings.
+family: security
+area: audit
+tags: [security, owasp, code-review, vulnerabilities]
+author: Sentry
+license: CC-BY-SA-4.0
+requires: []
+pairs_with: [differential-review, requesting-code-review]
+source:
+  repo: getsentry/skills
+  path: skills/security-review
+  ref: 6d20de492725c78e805aa0741507bb90d1982cc7

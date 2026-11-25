@@ -1,0 +1,14 @@
+name: xlsx
+title: Excel Spreadsheets
+summary: Build and edit Excel workbooks with live formulas, recalculate them and check that no cell holds a formula error.
+family: data
+area: analysis
+tags: [xlsx, excel, spreadsheets, formulas]
+author: Anthropic
+license: Apache-2.0
+requires: []
+pairs_with: [pdf]
+source:
+  repo: anthropics/skills
+  path: skills/xlsx
+  ref: e4bb5d960d87126ff3b3a8af1a104b7db67560ba

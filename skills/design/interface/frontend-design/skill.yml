@@ -1,0 +1,14 @@
+name: frontend-design
+title: Frontend Design
+summary: Build production-grade web pages and components with a deliberate visual direction instead of generic AI styling.
+family: design
+area: interface
+tags: [frontend, ui, design, css]
+author: Anthropic
+license: Apache-2.0
+requires: []
+pairs_with: [webapp-testing]
+source:
+  repo: anthropics/skills
+  path: skills/frontend-design
+  ref: 41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f

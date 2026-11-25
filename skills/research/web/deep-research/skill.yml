@@ -1,0 +1,14 @@
+name: deep-research
+title: Deep Research
+summary: Break a topic into sub-questions, search and read many web sources, and write a report with a citation for every claim.
+family: research
+area: web
+tags: [research, web, citations, reports]
+author: Affaan Mustafa
+license: MIT
+requires: []
+pairs_with: [dispatching-parallel-agents]
+source:
+  repo: affaan-m/everything-claude-code
+  path: skills/deep-research
+  ref: 0765f7a2ca2bd5df214d3aa7ba7e7ac19db8b189

@@ -1,0 +1,14 @@
+name: writing-plans
+title: Writing Plans
+summary: Write a step-by-step implementation plan with exact files, code and test commands that another agent can follow.
+family: engineering
+area: planning
+tags: [planning, specs, implementation]
+author: Jesse Vincent
+license: MIT
+requires: []
+pairs_with: [brainstorming, subagent-driven-development, using-git-worktrees, test-driven-development]
+source:
+  repo: obra/superpowers
+  path: skills/writing-plans
+  ref: 8ca22dba9a94f28898bbce59f2537ff4d87c747d

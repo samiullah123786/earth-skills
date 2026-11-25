@@ -1,0 +1,14 @@
+name: using-git-worktrees
+title: Using Git Worktrees
+summary: Start feature work in an isolated git worktree with a clean test baseline, so the main checkout stays untouched.
+family: engineering
+area: delivery
+tags: [git, worktrees, isolation]
+author: Jesse Vincent
+license: MIT
+requires: []
+pairs_with: [finishing-a-development-branch, subagent-driven-development, writing-plans]
+source:
+  repo: obra/superpowers
+  path: skills/using-git-worktrees
+  ref: bc868020bbcec32bbaf9d6b51fa0538dba0b487f

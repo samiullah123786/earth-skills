@@ -1,0 +1,14 @@
+name: writing-skills
+title: Writing Skills
+summary: Write a new skill test-first by watching an agent fail without it, writing the skill, then closing the loopholes it finds.
+family: ops
+area: skills
+tags: [skills, authoring, testing]
+author: Jesse Vincent
+license: MIT
+requires: [test-driven-development]
+pairs_with: [skill-creator]
+source:
+  repo: obra/superpowers
+  path: skills/writing-skills
+  ref: 2ce8aa15d05bd57213e6f746f953aafb7ded7a8b

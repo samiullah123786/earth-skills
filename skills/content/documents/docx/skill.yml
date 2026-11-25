@@ -1,0 +1,14 @@
+name: docx
+title: Word Documents
+summary: Create, read and edit Word .docx files, including tracked changes, comments, tables and formatting.
+family: content
+area: documents
+tags: [docx, word, documents]
+author: Anthropic
+license: Apache-2.0
+requires: []
+pairs_with: [pdf, doc-coauthoring]
+source:
+  repo: anthropics/skills
+  path: skills/docx
+  ref: e4bb5d960d87126ff3b3a8af1a104b7db67560ba
